@@ -1,0 +1,89 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px 40px
+}
+
+.form-container {
+    background-color:transparent;
+    padding: 30px 40px;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 350px;
+    margin: 20px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    backdrop-filter:blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+.Forget a {
+    color: rgb(255, 255, 255)
+}
+button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    width: 350px;
+    font-weight: bold;
+}
+.new-account{
+    margin-top: 15px;
+}
+.new-account a{
+    color: rgb(255, 255, 255);
+}
+.Cencle{
+    margin-top: 20px;
+}
+.Cencle a
+{
+    color: #ffffff;
+}
+.Back
+{
+    margin-top: 20px;
+}
+.Back a
+{
+    color: #ffffff;
+}
+.backtohome{
+    margin: 20px 0px;
+    float:right;
+}
+.backtohome a
+{
+    color: #ffffff;
+}
